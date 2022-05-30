@@ -102,7 +102,7 @@ resource "azurerm_windows_virtual_machine" "win_vm" {
   location            = local.location
   size                = "Standard_DS1"
   admin_username      = "myusr"
-  admin_password      = "LoauUansdHsnx83end!"
+  admin_password      = "-"
   network_interface_ids = [
     azurerm_network_interface.win_nic.id,
   ]
