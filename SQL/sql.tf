@@ -31,7 +31,7 @@ resource "azurerm_mssql_server" "sqlq12321312" {
   location                     = local.location
   version                      = "12.0"
   administrator_login          = "admina"
-  administrator_login_password = "jnkvfa83ebn3j!"
+  administrator_login_password = "-"
 
   depends_on = [
     azurerm_resource_group.win_rg
