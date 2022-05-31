@@ -6,9 +6,8 @@
     AKS_location: "East Asia"
     aks_name: aksclus
     username: aksuser
-    ssh_pub_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA6FpcJVHUl/xaZwocymTZvMjsAdxcK1pWXj9feADZrhcjX3rPGpLGSTZMbVM/yZO3nzeSXO7V7Bd++leO3pzf1RMjs2ehi8+Gqq+b5r35iN4jpjNi4vfyThVfbcSbVrrNmrBXcNPv40a4EMyXm5m0KFhFfXQvLlYnz080y7ihZ04nrqDXLjIY0cg90/pGnYGm5eA/H2EtpAsqiJkd/CG5jocfzI5EAWb8JdF8echH7RZtpM0AYDm7hJKS1RMq/nk6X3ytAlux5uJV+y2ocoiA8YgMfpaZm6dU0DQwS1GUaG0sbMu09jjHElKgvF3ZeQdlMz38+J4pPSl6nJCpwz6dfQ== rsa-key-20220531"
-    client_id: "d077ac9d-7063-4901-9828-696279ce1a3d"
-    client_secret: "gbmfvcgfg64Eyrzk53~~HxLaHCBV2TfvYB"
+    ssh_pub_key: ""
+    client_secret: ""
     k8s_version: "1.23.3"
 
   tasks:
