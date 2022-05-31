@@ -1,0 +1,23 @@
+- name: New ACR
+  hosts: localhost
+  connection: local
+  vars:
+    ACR_resource_group: ACRDemo1
+    ACR_location: "East Asia"
+    acr_name: acr011x2dq3facscass1
+
+  tasks:
+    - name: Create Resource Group
+      azure_rm_resourcegroup:
+        name: "{{ ACR_resource_group }}"
+        location: "{{ ACR_location }}"
+    - name: Create ACR
+      azure_rm_containerregistry:
+        name: "{{ acr_name }}"
+        location: "{{ ACR_location }}"
+        resource_group: "{{ ACR_resource_group }}"
+        admin_user_enabled: true
+        sku: Premium
+        tags:
+          Release: ac0
+          Environment: Dev
