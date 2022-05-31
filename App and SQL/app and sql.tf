@@ -81,3 +81,5 @@ resource "azurerm_mssql_firewall_rule" "db_firewall_rule" {
   start_ip_address = "103.219.166.226"
   end_ip_address   = "103.219.166.226"
 }
+
+
